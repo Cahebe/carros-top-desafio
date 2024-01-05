@@ -1,8 +1,12 @@
 import './App.css'
 
+import MainPage from './routes/MainPage/index.tsx';
+
 function App() {
   return (
-    <h1>Teste</h1>
+    <>
+    <MainPage />
+    </>
   );
 }
 

@@ -1,0 +1,17 @@
+.ct-comments-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-bg);
+  padding: 25px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--blue-border);
+  margin-bottom: 25px;
+}
+
+.ct-comments-card p {
+  color: var(--blue-font);
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+

@@ -1,0 +1,32 @@
+footer {
+  background-color: var(--blue-bg);
+  height: 120px;
+  padding: 35px;
+}
+
+.footer-container {
+    font-family: Poppins;
+    font-size: 16px;
+    color: var(--white-font);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.address {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 960px;
+    }
+    
+    footer {
+        padding: 50px;
+    }
+}

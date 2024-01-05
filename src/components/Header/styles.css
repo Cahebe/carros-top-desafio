@@ -1,0 +1,26 @@
+h1 {
+  color: var(--white-font);
+}
+
+.ct-header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: var(--blue-bg);
+}
+
+.title-container {
+  margin: 0 auto;
+}
+
+.title-container h1 {
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 768px) {
+  .title-container h1 {
+    font-size: 24px;
+  }
+}
+

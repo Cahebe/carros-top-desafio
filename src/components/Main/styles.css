@@ -1,0 +1,22 @@
+main {
+  background-color: var(--white-bg);
+  padding: 25px;
+}
+
+.ct-main-description-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ct-main-description-container h2 {
+  color: var(--grey-font);
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 768px) {
+  .ct-main-description-container h2 {
+      font-size: 32px;
+  }
+}

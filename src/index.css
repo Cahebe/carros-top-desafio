@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
   --blue-bg: #3C9AF0;
+  --white-bg: #fff;
+  --grey-bg: #c8c8c8;
+
+  --white-font: #fff;
+  --blue-font: #3C9AF0;
+  --grey-font: #5E5E5E;
+
+  --blue-border: #3C9Af0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
 }
